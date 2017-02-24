@@ -81,6 +81,3 @@ rescue here is the real example of ruby variable  => e
 	
 =end
 
-
-
-	
