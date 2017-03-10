@@ -5,7 +5,9 @@ puts("hello World")
 
 def sumation
 array = ["Amit","Sam "]
+
+p array
     end 
 
-    puts sumation
+ sumation
 
