@@ -1,3 +1,5 @@
+
+puts "First loop"
 $i = 0
 $num =6
 while $i <$num do 
@@ -5,16 +7,17 @@ while $i <$num do
 
 $i +=1	
 end
-
+puts "****Second Loop*****"
 $i = 15
 $num = 10
 while $i> $num do 
-	puts("here is the loop #$i")
+	puts("here is the loop #$i \n ")
 
 	$i-=2
 	
 end
 
+puts"Third loop"
 
 $i = 3
 $num = 5
@@ -23,6 +26,7 @@ until $i>$num do
 	$i+=1
 	
 end
+
 
 
 
