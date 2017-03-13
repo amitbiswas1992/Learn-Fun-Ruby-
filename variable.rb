@@ -38,6 +38,30 @@ objectforprint2.dispaly_info()
 objectforprint3.dispaly_info()
 
 
+class Employee
+  def initialize(id , batch, name , phone )
+
+    @emp_id= id 
+    @emp_batch = batch
+    @emp_name = name 
+    @emp_phone = phone
+  end 
+  
+  def show ()
+     puts "Employee ID : #@emp_id"
+
+     puts "Employee Batch : #@emp_batch"
+
+     puts"Employee Name : #@emp_name "
+
+     puts "Employee Phone Number : #@emp_phone"
+    end 
+end 
+
+employee_object = Employee.new("01","101","Ashis Kumar","+167834212")
+employee_object.show() 
+
+
 
 
 #class Variable example 
