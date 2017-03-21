@@ -13,3 +13,4 @@ hash_array= [ {'first'=>'Amit','last'=>'Biswas'},{'id'=>'202','email'=>'amit@maz
 
 puts hash_array[1]
 
+

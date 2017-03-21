@@ -8,4 +8,4 @@ p b
 
 Hash[[12,34,62].map {|x| [x,x.to_i]}]
 
-Hash [%w(A dynamic Programing language).map {|x| [x,x.length]}] 
+Hash[%w(A dynamic Programing language).map {|x| [x,x.length]}] 
