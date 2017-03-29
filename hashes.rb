@@ -6,3 +6,6 @@ people_2={shovon:28,Dg:31,Masum:26}
 p people.merge(people_2)
 
 p people.to_a
+
+p people.keys
+p people.values 
